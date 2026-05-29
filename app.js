@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 require('dns').setServers(['8.8.8.8', '1.1.1.1']);//imp
 
 
-const User = require("./model/user")
+const User = require("./mode/user")
 
 
 const app = express()
